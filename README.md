@@ -16,6 +16,7 @@ pip install -r requirements.txt
 ```
 
 ## 💻 Preparing
++ Create ```address.txt``` - write the addresses each on a new line
 + Open ```config.py``` with a text editor:
   + ```AMOUNT_PER_ACC``` - number faucet for each account
   + ```THREADS``` - number of simultaneous faucet
