@@ -1,0 +1,4 @@
+aiohttp==3.9.3
+aiohttp_proxy==0.1.2
+loguru==0.7.0
+pyuseragents==1.0.5
