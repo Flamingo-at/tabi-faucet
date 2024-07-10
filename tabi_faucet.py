@@ -41,7 +41,7 @@ async def worker():
                                                  'address': address
                                              })
                 data = await response.json()
-                logger.info(f'{address} | Successfully Faucet | {data["hash"]}')
+                logger.info(f'{address} | Successfully Faucet | {data["message"]}')
 
         except Exception as error:
             logger.error(f'{address} | Error faucet')
